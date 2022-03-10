@@ -11,6 +11,7 @@
 		B313303A27D96B22006F60EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B313303927D96B22006F60EA /* ContentView.swift */; };
 		B313303C27D96B23006F60EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313303B27D96B23006F60EA /* Assets.xcassets */; };
 		B313303F27D96B23006F60EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B313303E27D96B23006F60EA /* Preview Assets.xcassets */; };
+		B313304627D96D3C006F60EA /* Retro Gaming.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B313304527D96D3C006F60EA /* Retro Gaming.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		B313303927D96B22006F60EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B313303B27D96B23006F60EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B313303E27D96B23006F60EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B313304527D96D3C006F60EA /* Retro Gaming.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Retro Gaming.ttf"; sourceTree = "<group>"; };
+		B313304727D96D5A006F60EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +54,11 @@
 		B313303627D96B22006F60EA /* GameboyTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				B313304727D96D5A006F60EA /* Info.plist */,
 				B313303727D96B22006F60EA /* GameboyTutorialApp.swift */,
 				B313303927D96B22006F60EA /* ContentView.swift */,
 				B313303B27D96B23006F60EA /* Assets.xcassets */,
+				B313304527D96D3C006F60EA /* Retro Gaming.ttf */,
 				B313303D27D96B23006F60EA /* Preview Content */,
 			);
 			path = GameboyTutorial;
@@ -125,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B313304627D96D3C006F60EA /* Retro Gaming.ttf in Resources */,
 				B313303F27D96B23006F60EA /* Preview Assets.xcassets in Resources */,
 				B313303C27D96B23006F60EA /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +278,7 @@
 				DEVELOPMENT_TEAM = XD6Q8NU838;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GameboyTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +308,7 @@
 				DEVELOPMENT_TEAM = XD6Q8NU838;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GameboyTutorial/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
